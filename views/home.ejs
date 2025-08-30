@@ -1,0 +1,11 @@
+<%- include("header.ejs") %>
+
+    <div class="content">
+        <% for (let i=0;i<publish.length;i++){ %>
+            <h2><%= publish[i].title %></h2><br>
+            <p><%= publish[i].info %></p><br>
+        <% } %>
+    </div>
+</body>
+
+<%- include("footer.ejs") %>

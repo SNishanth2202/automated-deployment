@@ -1,0 +1,13 @@
+<%- include("header.ejs") %>
+
+<div class="content">
+  <% for (let key in publish) { %>   
+    <% if (key === postname) { %>
+      <h2><%= postname %></h2>
+      <p><%= publish[key] %></p>
+    <% } %>
+  <% } %>
+</div>     
+</body>
+
+<%- include("footer.ejs") %>
