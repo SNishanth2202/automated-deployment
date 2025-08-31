@@ -66,6 +66,6 @@ app.get("/posts/:postname", function (req, res) {
     res.render("post", {postname : postname, publish: publish});
 })
 
-app.listen(3000, function () {
-    console.log("the app is serving in the port 3000");
+app.listen(5000, function () {
+    console.log("the app is serving in the port 5000");
 })
